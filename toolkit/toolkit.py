@@ -39,8 +39,11 @@ if no == 1:
 
     add_https(input_file, output_file)
 
-elif no == 1:
+elif no == 2:
     input_file = input("Input File: ")
     output_file = input("Output File: ")
 
     add_http(input_file, output_file)
+
+else:
+  print("INVALID NUMBER !!")
